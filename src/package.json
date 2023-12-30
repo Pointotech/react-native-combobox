@@ -1,0 +1,38 @@
+{
+  "name": "@pointotech/react-native-combobox",
+  "title": "React Native Combobox",
+  "version": "0.2.4",
+  "description": "Drop-down UI component that lets users select an item from a list.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pointotech/react-native-combobox.git",
+    "baseUrl": "https://github.com/Pointotech/react-native-combobox"
+  },
+  "keywords": [
+    "react-native drop-down combobox combo-box spinner picker select options"
+  ],
+  "author": {
+    "name": "Pointotech",
+    "email": "pointotechrimouski@gmail.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "react-native": ">=0.60.0 <1.0.x"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.6",
+    "@types/react-native": "^0.64.5",
+    "react": "^17.0.0",
+    "react-native": ">=0.60.0 <1.0.x"
+  },
+  "comments": {
+    "react-native": "React Native versions preceding 0.60.0 require manual linking of native code. We aren't interested in supporting that functionality, or the documentation for it."
+  }
+}

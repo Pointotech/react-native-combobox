@@ -1,0 +1,15 @@
+{
+  "include": ["./**/*"],
+  "exclude": ["./node_modules", "./dist"],
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "jsx": "react-native",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "outDir": "./dist",
+    "resolveJsonModule": true
+  }
+}
